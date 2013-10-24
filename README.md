@@ -1,4 +1,0 @@
-gowebrtc
-========
-
-WebRTC presentation
