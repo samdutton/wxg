@@ -126,10 +126,10 @@ q {
 color: white;
 }
 
-/*slides > slide:not(.nobackground):after {
-  content: none;
+slides > slide:not(.nobackground):after {
+  content: simpl.info/wxg;
 }
-*/
+
 slides > slide.title-slide:after {
 background: none;
 }
@@ -137,6 +137,11 @@ background: none;
 slides > slide:not(.nobackground):before {
   content: "@sw12";
 }
+
+slides > slide:not(.nobackground):after {
+  content: "simpl.info/wxg";
+}
+
 
 strong {
 font-weight: bold;
